@@ -22,5 +22,5 @@ def main(page: ft.Page):
     page.on_route_change = router
     page.go(page.route)
 
-if __name__ == '__name__':
+if __name__ == '__main__':
     ft.app(target=main, view=ft.AppView.WEB_BROWSER)
